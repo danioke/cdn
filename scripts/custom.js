@@ -1344,7 +1344,7 @@ $(document).ready(function(){
             var greetingUser = $('.greeting-text').data('username')
             var greetingMorning = ('Good morning');
             var greetingAfternoon = ('Good afternoon');
-            var greetingEvening = ('Good evening');
+            var greetingEvening = ('Selamat malam');
 
             if (greetingTime >= 0 && greetingTime < 12) {greetingMessage = greetingMorning; 
             } else if (greetingTime >= 12 && greetingTime < 17) {greetingMessage = greetingAfternoon;
