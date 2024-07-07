@@ -1341,8 +1341,8 @@ $(document).ready(function(){
         function activate_pageGreeting(){
             var greetingTime = new Date().getHours();
             var greetingMessage;
-            var greetingUser = $('.greeting-text').data('username')
-            var greetingMorning = ('Good morning');
+            var greetingUser = $('.greeting-text').data('author')
+            var greetingMorning = ('Selamat Pagi');
             var greetingAfternoon = ('Good afternoon');
             var greetingEvening = ('Selamat malam');
 
