@@ -7,7 +7,7 @@
 "name" : "DANIWEBID",
 "scope" : "/",
 "display" : "fullscreen",
-"start_url" : "dani.web.id",
+"start_url" : "https://www.dani.web.id",
 "short_name" : "DANIWEB",
 "description" : "",
 "orientation" : "portrait",
