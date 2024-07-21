@@ -1344,8 +1344,8 @@ $(document).ready(function(){
             var greetingMessage;
             var greetingUser = $('.greeting-text').data('username')
             var greetingMorning = ('Selamat Pagi');
-            var greetingAfternoon = ('Good afternoon');
-            var greetingEvening = ('Selamat malam');
+            var greetingAfternoon = ('Selamat Siang');
+            var greetingEvening = ('Selamat Malam');
 
             if (greetingTime >= 0 && greetingTime < 12) {greetingMessage = greetingMorning; 
             } else if (greetingTime >= 12 && greetingTime < 17) {greetingMessage = greetingAfternoon;
